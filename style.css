@@ -84,6 +84,7 @@ nav{
     
     background: #cbdffa;
     flex-basis: 25%;
+    border-radius: 6px;
     position: sticky;
     top:70px;
     align-self:flex-start;
@@ -93,7 +94,8 @@ nav{
 
 .main-content {
     
-    flex-basis:75%;
+    flex-basis:65%;
+    padding-right: 10%;
     
 }
 
@@ -145,10 +147,48 @@ nav{
 }
 
 .text-area textarea{
-    width:100%;
+    width:90%;
     border: 0;
     outline: 0;
     border-left:1px solid #ccc;
     border-bottom: 1px solid #ccc;
     background: transparent;
+    resize: none;
+}
+
+.button {
+    list-style: none;
+    display: inline-block;
+    background: #626262;
+    border-radius:12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor:pointer;
+}
+
+.post-container{
+    
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+    
+}
+
+.user-profile span{
+    font-size:13px;
+    color: #9a9a9a;
+}
+
+.post-text {
+    
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
 }
